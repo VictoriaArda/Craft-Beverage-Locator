@@ -1,5 +1,5 @@
 ## Project Title 
-Craft-Beverage-Locator
+#Craft-Beverage-Locator
 
 ## Project Description
 Create a map that allows a purchaser of craft beverages to search for new craft beverages in their area.  The map will return the location, retailer name and address for craft beverages that are distributed by the distributor Liquid Runner.
@@ -22,7 +22,7 @@ This Craft Beverage Locator accomplishes that task.
 
 ## Rough breakdown of tasks 
 
-FrontEnd And Backend 
+  FrontEnd And Backend 
 
 * Fernando --> Frontend 
 
