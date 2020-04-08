@@ -7,8 +7,9 @@ Create a map that allows a purchaser of craft beverages to search for new craft 
 
 ## User Storie
 As a purchaser of craft beverages
-They want to find new cb in my area 
-so purchaser they will try new cb they never try before 
+They want to find new craft beverages in the area 
+So purchaser will try new craft beverages they never tried before. 
+The Craft Beverage Locator accomplishes this task.
 
 
 ## WireFrame or Scetch of Design  
@@ -21,11 +22,15 @@ Google Maps
 
 FrontEnd And Backend 
 
-Fernando -->
-Nancy -->
-Chris -->
-Victoria -->
-Vlada -->
+# Fernando -->
+
+# Nancy -->
+
+# Chris -->
+
+# Victoria -->
+
+# Vlada -->
 
 
 
