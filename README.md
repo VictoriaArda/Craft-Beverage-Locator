@@ -13,24 +13,26 @@ The Craft Beverage Locator accomplishes this task.
 
 
 ## WireFrame or Scetch of Design  
+<img src = "C:\Users\Victoria\Desktop\Craft-Beverage-Locator\Screen Shot 2020-04-07 at 8.58.07 PM.png">
+
 
 ## Apis to be Used 
-Open Brewery DB
-Google Maps 
+* Open Brewery DB
+* Google Maps 
 
 ## Rough breakdown of tasks 
 
 FrontEnd And Backend 
 
-# Fernando -->
+* Fernando --> Frontend 
 
-# Nancy -->
+* Nancy --> Backend
 
-# Chris -->
+* Chris --> Frontend
 
-# Victoria -->
+* Victoria --> Backend
 
-# Vlada -->
+* Vlada --> Backend
 
 
 
