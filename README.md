@@ -14,7 +14,7 @@ This Craft Beverage Locator accomplishes that task.
 
 ## WireFrame or Scetch of Design  
 
-![picture](img.png "Design")
+![alt text](img2.png)
 
 
 ## Apis to be Used 
