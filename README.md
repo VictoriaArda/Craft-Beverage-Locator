@@ -13,7 +13,8 @@ This Craft Beverage Locator accomplishes that task.
 
 
 ## WireFrame or Scetch of Design  
-<img src = "C:\Users\Victoria\Desktop\Craft-Beverage-Locator\Screen Shot 2020-04-07 at 8.58.07 PM.png">
+
+![picture](img.png "Design")
 
 
 ## Apis to be Used 
