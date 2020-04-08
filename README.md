@@ -7,9 +7,9 @@ Create a map that allows a purchaser of craft beverages to search for new craft 
 
 ## User Storie
 As a purchaser of craft beverages
-They want to find new craft beverages in the area 
-So purchaser will try new craft beverages they never tried before. 
-The Craft Beverage Locator accomplishes this task.
+I wanted to find new craft beverages in the area. 
+So I can try new craft beverages that I've never tried before. 
+This Craft Beverage Locator accomplishes that task.
 
 
 ## WireFrame or Scetch of Design  
