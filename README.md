@@ -12,7 +12,7 @@ So I can try new craft beverages that I've never tried before.
 This Craft Beverage Locator accomplishes that task.
 
 
-## WireFrame or Scetch of Design  
+## WireFrame or Sketch of Design  
 
 ![alt text](img2.png)
 
