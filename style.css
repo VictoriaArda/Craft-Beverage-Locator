@@ -1,0 +1,35 @@
+.body {
+    font-family: Helvetica, Arial, sans-serif
+}
+
+.h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+  }
+
+.h2 {
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: bolder;
+}
+
+
+#video-background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 1;
+  width: 100%;
+}
+
+.jumbotron {
+position: relative;
+overflow: hidden;
+}
+
+.jumbotron .container {
+position: relative;
+z-index: 1;
+}
