@@ -1,165 +1,213 @@
-<!-- Index Body Layout -->
-<!DOCTYPE html>
-<html lang="en-us">
-
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Bootstrap Example</title>
-
-  <!-- Bootstrap CDN -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>LIQUID RUNNER</title>
 </head>
 
-<body>
-     <!-- Container -->
-    <div class="container-fluid">
-    <!-- Start Nav - Insert Fernando Nav Here-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <span class="navbar-brand mb-1 h1">LIQUID RUNNER</span>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
+<body>  
+  <!-- Start Nav -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand mb-1" href="index.html">LIQUID RUNNER</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="nav navbar-nav navbar-right">
         <li class="nav-item">
-        <a class="nav-link" href="#">SUPPLIERS</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="#">WHAT WE DO </a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="#">CRAFT LOCATOR</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">ABOUT</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">CONTACT</a>
-        </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+            <li class="nav-item">
+        <a class="nav-link" href="craftlocator.html">CRAFT LOCATOR</a>
+        </li>   
     </ul>
     </div>
-</nav>
-<!-- End Nav -->
+  </nav>
+  <!-- End Nav -->
 
 <!-- Marquee Main Headline-->
-<div class="container">
-<div class = "row">
-    <div class = "col">
-        <div class="jumbotron jumbotron-fluid bg-light text-dark mb-0">
-            <div class="container-fluid">      
-            <h2 class="display-4 text-center" >MAIN HEADLINE</h2>
-            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt optio provident tempora amet, eveniet et, eum illum, culpa laborum dicta recusandae magni architecto. Illo saepe facilis, unde. Debitis, atque, doloremque</p>
-            </div>
-        </div>
-    </div>
+<div class="jumbotron jumbotron-fluid mt-5 mb-0 bg-dark text-white">
+  <div class="container">
+    <h1 class="display-4">LIQUID RUNNER</h1>
+    <p class="lead">Craft Beverage Distribution and Marketing for the Local NJ Craft Brewer. </p>
+    </div>  
+  </div>
 </div>
   <!-- About  -->
-  <div class = "row">
-    <div class = "col">
-        <div class="jumbotron jumbotron-fluid bg-secondary text-dark mb-0">
-            <div class="container-fluid">      
-            <h2 class="display-4 text-center">ABOUT</h2>
-            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt optio provident tempora amet, eveniet et, eum illum, culpa laborum dicta recusandae magni architecto. Illo saepe facilis, unde. Debitis, atque, doloremque</p>
-            </div>
-        </div>
+  <div class="jumbotron jumbotron-fluid mb-5">
+    <div class="container">
+    <h1 class="display-4 text-center">ABOUT</h1>
+    <p class="lead">We know how large disrtibutors are run, we worked for them. That’s why we’re hell-bent on conducting ourselves differently.
+
+      Liquid Runner is boutique by design. We’re dedicated to the client experience, the process and consistent communication through every step.
+      
+      We’ve never been interested in taking on as many brands as possible. It’s our mission to embrace the right suppliers so that we can focus on every detail and provide a great experience.</p>
+      
+      <p class="lead">When we hit capacity, we’re at capacity. We don’t overload ourselves just to chase after the almighty dollar. We won’t sacrifice the client experience and the quality of our work to bring in more suppliers. It’s ultimately not what’s best for you or for us.
+      
+      The difference between working with Liquid Runner or someone else? No lifetime contracts ever! 
+      We’ll push ourselves to oblivion for your deadline, your challenges and for world-class quality of work.</p>
     </div>
-</div>
- <!-- Suppliers  -->
-<div class = "row mt-5 mb-5">
+  </div>
+
+  <!-- Suppliers Header -->
+<div class = "row-12 justify-content-center">
     <div class ="col">
     <h1 class="display-4 text-center">SUPPLIERS</h1>
-    </div>
 </div>
-<!--Suppliers First Two Cards-->
-<div class = "row mb-5 ">
-    <div class ="col">
-        <div class="card" style="width: 100%;">
-            <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
-            <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
+<!-- Suppliers Cards-->
+<div class="row-12 mt-5 mb-5">
+    <div class="col-10 mx-auto">
+    <div class="card-deck">
+      <div class="card border-warning mb-3" style="max-width: 20rem;">
+        <div class="card-header"></div>
+        <div class="card-body text-dark">
+          <h5 class="card-title">CRAFT BREWERS</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>     
+      </div>
+      <div class="card border-dark mb-3" style="max-width: 20rem;">
+        <div class="card-header"></div>
+        <div class="card-body text-dark">
+          <h5 class="card-title">CRAFT RETAILERS</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
-        
+      </div>
+      <div class="card border-primary mb-3"  style="max-width: 20rem;">
+        <div class="card-header"></div>
+        <div class="card-body text-dark">
+          <h5 class="card-title">CRAFT DISTILLERS</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card border-success mb-3" style="max-width: 20rem;">
+        <div class="card-header"></div>
+          <div class="card-body text-dark">
+            <h5 class="card-title">CRAFT WINERIES</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>  
+      </div> 
     </div>
+  </div>
+</div>
+<!-- Newsletter -->
+<div class="jumbotron jumbotron-fluid mb-0">
+  <div class="container">
+  <h1 class="display-4">Contact</h1>
+  <p class="lead">Contact us for more information</p>
+      <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Enter eMail Address" aria-label="Enter eMail Address" aria-describedby="button-addon2">
+          <div class="input-group-append">
+          <button class="btn btn-dark" type="button" id="">Submit</button>
+          </div>
+      </div>  
+  </div>
+</div>
+<!--Start Social Media Footer--> 
+<div class = "row mt-5">
+  <div class = "col">
+<div class="mx-auto" style="width: 200px;">
+  <h2 class="text-center">@LIQUIDRUNNER</h2>
+    <div class="mx-auto" style="width: 200px;">
+      <div class="container text-center mb-5">
+        <a href="#"><i class="fab fa-2x fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-2x fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-2x fa-twitter-square"></i></a>
+        <a href="#"><i class="fab fa-2x fa-untappd"></i></a>
+      </div>
+    </div>
+</div>​
+<div class="mx-auto">
+  <ul class="nav navbar navbar-expand-lg navbar-dark text-light bg-dark justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" href="contact.html">CONTACT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="craft beverage locator.html">LOCATOR</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" data-toggle="modal" data-target="#modal">PRIVACY POLICY</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" data-toggle="modal" data-target="#modal">TERMS AND CONDITIONS</a>
+      </li>
+  </ul>
+  <ul class="nav navbar navbar-expand-lg navbar-dark text-light bg-dark justify-content-center">
+    <li class="list-inline-item">Copyright&copy; 2020 LIQUID RUNNER</li>
+    <li class="list-inline-item">All Rights Reserved.</li>
+  </ul>
+</div>
+<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalTitle">Terms and conditions</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, aperiam sapiente.</p>
+            </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+<!--End Social Media Footer-->
+​<!--Start Footer--> 
+<div class="mx-auto">
+  <ul class="nav navbar navbar-expand-lg navbar-dark text-light bg-dark justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">CONTACT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="craftlocator.html">LOCATOR</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" data-toggle="modal" data-target="#modal">PRIVACY POLICY</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" data-toggle="modal" data-target="#modal">TERMS AND CONDITIONS</a>
+      </li>
+  </ul>
+  <ul class="nav navbar navbar-expand-lg navbar-dark text-light bg-dark justify-content-center">
+    <li class="list-inline-item">Copyright&copy; 2020 LIQUID RUNNER</li>
+      <li class="list-inline-item">All Rights Reserved.</li>
+  </ul>
+</div>
 
-   
-<div class ="col">
-        <div class="card" style="width: 100%;">
-            <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
-            <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalTitle">Terms and conditions</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
             </div>
-        </div>      
-    </div>
-</div>
-<!--Suppliers Second Two Cards-->
-<div class = "row mb-5">
-    <div class ="col">
-        <div class="card" style="width: 100%;">
-            <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
-            <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="modal-body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, aperiam sapiente. Libero magnam</p>
             </div>
+          <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         </div>
-        
-    </div>
-    <div class ="col">
-        <div class="card" style="width: 100%;">
-            <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
-            <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-        </div>      
-    </div>
-</div>
+<!--End Footer-->
+<!-- Start Scripts-->
+<script src="google-map.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-<!-- Craft Locator  -->
-<div class = "row">
-    <div class = "col">
-        <div class="jumbotron jumbotron-fluid bg-light text-dark mb-0">
-            <div class="container-fluid">      
-            <h2 class="display-4 text-center" >CRAFT LOCATOR</h2>
-            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt optio provident tempora amet, eveniet et, eum illum, culpa laborum dicta recusandae magni architecto. Illo saepe facilis, unde. Debitis, atque, doloremque</p>
-            </div>
-            <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Enter ZipCode" aria-label="Enter ZipCodes" aria-describedby="button-addon2">
-                <div class="input-group-append">
-                <button class="btn btn-dark" type="button" id="">Submit</button>
-                </div>
-        </div>
-    </div>
-</div>
-  <!-- Newsletter -->
-  <div class = "row">
-    <div class = "col">
-        <div class="jumbotron jumbotron-fluid bg-white text-dark mb-0">
-            <div class="col">  
-            <h1 class="display-4 text-center" >NEWSLETTER</h1>
-            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt optio provident tempora amet, eveniet et, eum illum, culpa laborum dicta recusandae magni architecto. Illo saepe facilis, unde. Debitis, atque, doloremque</p>
-                <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Enter eMail Address" aria-label="Enter eMail Address" aria-describedby="button-addon2">
-                <div class="input-group-append">
-                <button class="btn btn-dark" type="button" id="">Submit</button>
-                </div>
-            </div>   
-        </div>
-        </div>
-    </div>
-</div>
-  <!-- Contact Us  -->
-  <div class = "row mb-5">
-    <div class = "col">
-        <div class="jumbotron jumbotron-fluid bg-light text-dark mb-0">
-            <div class="container">      
-            <h2 class="display-4 text-center" >CONTACT US</h2>
-            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt optio provident tempora amet, eveniet et, eum illum, culpa laborum dicta recusandae magni architecto. Illo saepe facilis, unde. Debitis, atque, doloremque</p>
-            </div>
-        </div>
-    </div>
-</div>
-  <!--Footer-->
-    </body>
+<!-- End Scripts-->
+</body>
 </html>
+
