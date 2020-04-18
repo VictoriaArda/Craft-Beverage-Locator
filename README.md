@@ -25,8 +25,6 @@ This Craft Beverage Locator accomplishes that task.
 
   FrontEnd And Backend 
 
-* Fernando --> Frontend 
-
 * Nancy --> Backend
 
 * Chris --> Frontend
