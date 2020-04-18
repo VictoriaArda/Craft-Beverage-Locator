@@ -24,10 +24,8 @@ $("#submit").on("click", function(event) {
     method: "GET"
   })
     .then(function(response) {
-    //console.log(response);
     // response object saved to results array
     var results = response;
-    //console.log(results);
     // if no result found in api write message
     if (results.length == 0) {
       $("#list-results").empty();
@@ -56,9 +54,7 @@ $("#submit").on("click", function(event) {
 
 function createCardList(cardList){
 
-  for (var i = 0; i < cardList.length; i++) {
-    // if div contains results, clear results from last zipcode query
-            
+  for (var i = 0; i < cardList.length; i++) {  
     // create div elements; add classes for styling
     var addressDiv = $("<div>").addClass("col card");        
     var cardBodyDiv = $("<div>").addClass("card-body");      
@@ -92,30 +88,30 @@ $("#clear").click(function() {
 });
 
 
-// Initialize and add the map
 function initMap() {
-  
-  var mapResults = JSON.parse(results);
-  //console.log(mapResults);
-  //var encodedAddress = encodeURI(mapResults[0].name + mapResults[0].street + mapResults[0].city + mapResults[0].state + mapResults[0].postal_code);
-  //console.log(encodedAddress);
-  for (var i = 0; i < mapResults.length; i++){
-    mapLat = parseFloat(mapResults[i].latitude);
-    mapLong = parseFloat(mapResults[i].longitude);
-    
-  // The location of Uluru
-  var mapPoints = {lat: mapLat, lng: mapLong};
-  //console.log();
-  // The map, centered at Uluru
-  var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 15, center: mapPoints});
-  // The marker, positioned at Uluru
-  var marker = new google.maps.Marker({position: mapPoints, map: map});
+    var element = document.getElementById ("map");
+    var uluru = {lat: 39.833851, lng: -74.871826};
+    var map = new google.maps.Map(
+     document.getElementById('map'), {zoom: 15, center: uluru});
+     var marker = new google.maps.Marker({position: uluru, map: map});
   }
- 
-}
-
-
+  var mapResults = JSON.parse(results);
+    for (var i = 0; i < mapResults.length; i++){
+      mapLat = parseFloat(mapResults[i].latitude);
+      mapLong = parseFloat(mapResults[i].longitude);
+      console.log(mapResults[i].latitude);
+    // The location of  results
+    var mapPoints = {lat: mapLat, lng: mapLong};
+    
+    // The map, centered at locations
+    var myMap = new google.maps.Map(
+        document.getElementById('map'), {zoom: 15, center: mapPoints});
+    // The marker, positioned at each result
+    addMarker(mapPoints);
+    }
+  function addMarker(coordinates) {  
+   var marker = new google.maps.Marker({position: mapPoints, map: myMap});
+  }
 
 
 
