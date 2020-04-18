@@ -31,10 +31,12 @@
 </div>
 </nav>
 <!-- End Nav -->
-    <div class="jumbotron jumbotron-fluid text-white d-flex justify-content-center align-items-center mb-0">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48527.95900789432!2d-74.30416709716286!3d40.51954771426703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3b580bd90cf71%3A0x5ec1edff2ec8c9f1!2sPerth%20Amboy%2C%20NJ!5e0!3m2!1sen!2sus!4v1582272247965!5m2!1sen!2sus"
-        width="2000" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-    </div>
+
+<div id="map" style="width: 100%; height:400px">
+
+</div>
+<!-- Replace the value of the key parameter with your own API key. -->
+
 ​
     <div class="jumbotron jumbotron-fluid text-dark d-flex justify-content-center align-items-center">
       <div class="container text-center mt-10">
@@ -46,31 +48,13 @@
           </div>
           <div class="form-group mx-sm-3 mb-0">
             <label for="Zipcode" class="sr-only">Zipcode</label>
-            <input type="Zipcode" class="form-control" id="Zipcode" placeholder="Zipcode">
+            <input type="Zipcode" class="form-control" id="zip-code" placeholder="Zipcode">
           </div>
           <button id="submit" type="submit" class="btn btn-primary mb-2">Search</button>
+          <button id="clear" type="submit" class="btn btn-primary mb-2 ml-2">Clear</button>
         </form>      
-      <div class="card-deck mb-5">
-            <div class="card">
-              <div class="card-body" id="list-results">
-                <h5 class="card-title" id="">RESULTS</h5>
-              </div>
-                <small class="text-muted">RESULTS</small>
-            </div>
-           
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">RESULTS</h5>
-              </div>
-              <small class="text-muted">RESULTS</small>
-            </div>
-​
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">RESULTS</h5>
-              </div>
-                <small class="text-muted">RESULTS</small>
-            </div>
+      <div class="card-deck mb-5" id="list-results">
+      
           </div>
         </div>
       </div>
@@ -134,6 +118,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASAY3bNT2n9Z62EKujRlVCBwlu9kTMybo&callback=initMap">
+</script>
 <!-- End Scripts-->
 </body>
 </html>
